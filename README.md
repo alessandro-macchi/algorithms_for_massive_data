@@ -6,7 +6,7 @@
 **Alessandro Macchi** - github.com/alessandro-macchi
 
 ## Overview
-This project performs a Market-Basket Analysis to discover frequent actor collaborations within the IMDB Top 1000 movies dataset. By extracting the top four billed actors for each film (Star1 through Star4), it treats each movie as a "basket" to identify pairs of actors who frequently appear together on screen.
+This project performs a Market-Basket Analysis to discover frequent actor collaborations within the IMDB Top 1000 movies dataset. By extracting the top four billed actors for each film, it treats each movie as a "basket" to identify pairs of actors who frequently appear together on screen.
 
 The project implements, compares, and verifies the consistency of three fundamental massive-data algorithms:
 * **A-priori:** A standard two-pass algorithm that leverages the monotonicity property to filter candidate pairs.
